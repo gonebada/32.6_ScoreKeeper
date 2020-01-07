@@ -1,0 +1,19 @@
+span {
+    padding: 5px;
+}
+
+span.Player__name {
+    font-weight: bold;
+}
+
+span.Player__name::after {
+    content: " : scored-> ";
+    color: green;
+}
+
+span.Player__button:hover {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    color: red;
+}

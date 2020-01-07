@@ -1,0 +1,20 @@
+.AddPlayer {
+    margin: 0 auto;
+    margin-top:20px;
+    background: lightgrey;
+    padding: 15px 10px;
+    border-radius: 3%;
+    width:200px;
+}
+.AddPlayer:hover {
+    background: white;
+}
+
+input {
+    margin: 10px 5px;
+}
+input:hover{
+    border-color: blue;
+    color:white;
+    background:blue;
+}
